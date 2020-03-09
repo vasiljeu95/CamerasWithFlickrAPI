@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		E38E399C2416BBDC00B20B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E399B2416BBDC00B20B39 /* AppDelegate.swift */; };
-		E38E399E2416BBDC00B20B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E399D2416BBDC00B20B39 /* SceneDelegate.swift */; };
-		E38E39A02416BBDC00B20B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E399F2416BBDC00B20B39 /* ViewController.swift */; };
-		E38E39A32416BBDC00B20B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38E39A12416BBDC00B20B39 /* Main.storyboard */; };
 		E38E39A62416BBDC00B20B39 /* CamerasWithFlickrAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E38E39A42416BBDC00B20B39 /* CamerasWithFlickrAPI.xcdatamodeld */; };
 		E38E39A82416BBE000B20B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38E39A72416BBE000B20B39 /* Assets.xcassets */; };
 		E38E39AB2416BBE000B20B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38E39A92416BBE000B20B39 /* LaunchScreen.storyboard */; };
+		E38E39B42416BDA000B20B39 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E39B32416BDA000B20B39 /* SearchController.swift */; };
+		E38E39BA2416BEAC00B20B39 /* CameraDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E39B92416BEAC00B20B39 /* CameraDetailCell.swift */; };
+		E38E39BC2416BEBD00B20B39 /* CameraDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38E39BB2416BEBD00B20B39 /* CameraDetailCell.xib */; };
+		E38E39BF2416C21E00B20B39 /* GetImageExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E39BE2416C21E00B20B39 /* GetImageExtention.swift */; };
+		E38E39C12416C24D00B20B39 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E39C02416C24D00B20B39 /* NetworkService.swift */; };
+		E38E39C32416C27800B20B39 /* SearchResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E39C22416C27800B20B39 /* SearchResponce.swift */; };
+		E38E39C72416D1FD00B20B39 /* CameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E39C62416D1FD00B20B39 /* CameraCell.swift */; };
+		E38E39C92416D20E00B20B39 /* CameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38E39C82416D20E00B20B39 /* CameraCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E38E39982416BBDC00B20B39 /* CamerasWithFlickrAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamerasWithFlickrAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38E399B2416BBDC00B20B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E38E399D2416BBDC00B20B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E38E399F2416BBDC00B20B39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E38E39A22416BBDC00B20B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E38E39A52416BBDC00B20B39 /* CamerasWithFlickrAPI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CamerasWithFlickrAPI.xcdatamodel; sourceTree = "<group>"; };
 		E38E39A72416BBE000B20B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E38E39AA2416BBE000B20B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38E39AC2416BBE000B20B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38E39B32416BDA000B20B39 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		E38E39B92416BEAC00B20B39 /* CameraDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDetailCell.swift; sourceTree = "<group>"; };
+		E38E39BB2416BEBD00B20B39 /* CameraDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraDetailCell.xib; sourceTree = "<group>"; };
+		E38E39BE2416C21E00B20B39 /* GetImageExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageExtention.swift; sourceTree = "<group>"; };
+		E38E39C02416C24D00B20B39 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		E38E39C22416C27800B20B39 /* SearchResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponce.swift; sourceTree = "<group>"; };
+		E38E39C62416D1FD00B20B39 /* CameraCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCell.swift; sourceTree = "<group>"; };
+		E38E39C82416D20E00B20B39 /* CameraCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +69,68 @@
 			isa = PBXGroup;
 			children = (
 				E38E399B2416BBDC00B20B39 /* AppDelegate.swift */,
-				E38E399D2416BBDC00B20B39 /* SceneDelegate.swift */,
-				E38E399F2416BBDC00B20B39 /* ViewController.swift */,
-				E38E39A12416BBDC00B20B39 /* Main.storyboard */,
+				E38E39BD2416C20400B20B39 /* Model */,
+				E38E39B82416BE9E00B20B39 /* View */,
+				E38E39B22416BD8700B20B39 /* Controller */,
+				E38E39B52416BDBC00B20B39 /* Supporting Files */,
+			);
+			path = CamerasWithFlickrAPI;
+			sourceTree = "<group>";
+		};
+		E38E39B22416BD8700B20B39 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E38E39B32416BDA000B20B39 /* SearchController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E38E39B52416BDBC00B20B39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				E38E39A72416BBE000B20B39 /* Assets.xcassets */,
 				E38E39A92416BBE000B20B39 /* LaunchScreen.storyboard */,
 				E38E39AC2416BBE000B20B39 /* Info.plist */,
 				E38E39A42416BBDC00B20B39 /* CamerasWithFlickrAPI.xcdatamodeld */,
 			);
-			path = CamerasWithFlickrAPI;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E38E39B82416BE9E00B20B39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E38E39C42416CFA900B20B39 /* Cell with details */,
+				E38E39C52416CFBB00B20B39 /* Cell without details */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E38E39BD2416C20400B20B39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E38E39C22416C27800B20B39 /* SearchResponce.swift */,
+				E38E39BE2416C21E00B20B39 /* GetImageExtention.swift */,
+				E38E39C02416C24D00B20B39 /* NetworkService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E38E39C42416CFA900B20B39 /* Cell with details */ = {
+			isa = PBXGroup;
+			children = (
+				E38E39B92416BEAC00B20B39 /* CameraDetailCell.swift */,
+				E38E39BB2416BEBD00B20B39 /* CameraDetailCell.xib */,
+			);
+			path = "Cell with details";
+			sourceTree = "<group>";
+		};
+		E38E39C52416CFBB00B20B39 /* Cell without details */ = {
+			isa = PBXGroup;
+			children = (
+				E38E39C62416D1FD00B20B39 /* CameraCell.swift */,
+				E38E39C82416D20E00B20B39 /* CameraCell.xib */,
+			);
+			path = "Cell without details";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +191,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38E39C92416D20E00B20B39 /* CameraCell.xib in Resources */,
 				E38E39AB2416BBE000B20B39 /* LaunchScreen.storyboard in Resources */,
+				E38E39BC2416BEBD00B20B39 /* CameraDetailCell.xib in Resources */,
 				E38E39A82416BBE000B20B39 /* Assets.xcassets in Resources */,
-				E38E39A32416BBDC00B20B39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38E39A02416BBDC00B20B39 /* ViewController.swift in Sources */,
+				E38E39BA2416BEAC00B20B39 /* CameraDetailCell.swift in Sources */,
+				E38E39BF2416C21E00B20B39 /* GetImageExtention.swift in Sources */,
 				E38E399C2416BBDC00B20B39 /* AppDelegate.swift in Sources */,
+				E38E39B42416BDA000B20B39 /* SearchController.swift in Sources */,
+				E38E39C72416D1FD00B20B39 /* CameraCell.swift in Sources */,
+				E38E39C12416C24D00B20B39 /* NetworkService.swift in Sources */,
 				E38E39A62416BBDC00B20B39 /* CamerasWithFlickrAPI.xcdatamodeld in Sources */,
-				E38E399E2416BBDC00B20B39 /* SceneDelegate.swift in Sources */,
+				E38E39C32416C27800B20B39 /* SearchResponce.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E38E39A12416BBDC00B20B39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E38E39A22416BBDC00B20B39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E38E39A92416BBE000B20B39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,8 +349,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5288NF3D62;
-				INFOPLIST_FILE = CamerasWithFlickrAPI/Info.plist;
+				INFOPLIST_FILE = "CamerasWithFlickrAPI/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +368,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5288NF3D62;
-				INFOPLIST_FILE = CamerasWithFlickrAPI/Info.plist;
+				INFOPLIST_FILE = "CamerasWithFlickrAPI/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
